@@ -1,0 +1,90 @@
+
+html{
+  font-family: "Lato";
+  color: #fff;
+}
+body{
+  background: transparent url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  /* Prepare for flex box */
+  flex: 1 1 0%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+h1{
+  display: inline-block;
+  font-size: 92px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0;
+  line-height: 1.1em;
+  font-family: "Muli";
+}
+h2{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-weight: 900;
+  font-style: normal;
+}
+p{
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4em;
+}
+#flex-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  max-width: 620px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: relative;
+  padding: 40px 60px 60px 60px;
+  box-sizing: border-box;
+}
+#button{
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: table;
+
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+}
+#button a{
+  padding-top: 1em;
+  padding-right: 1.44em;
+  padding-right: calc(1.44em - .18em);
+  padding-bottom: 1em;
+  padding-left: 1.44em;
+  display: inline-block;
+  line-height: 1em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: "Lato";
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-weight: 700;
+  font-style: normal;
+}
+#button span{
+  display: inline-block;
+}
