@@ -101,6 +101,9 @@ p{
   font-weight: 300;
   font-size: 16px;
 }
+.lightbox form{
+    margin-top: 20px;
+}
 .lightbox input{
   padding: 12px;
   margin-top: 15px;
@@ -124,6 +127,7 @@ p{
 }
 .lightbox .featherlight-content{
   width: 500px;
+  max-width: 90%;
   padding: 25px;
   color: #fff;
   background: rgba(0,0,0, 0.7);
