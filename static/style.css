@@ -11,7 +11,7 @@ body{
   flex: 1 1 0%;
   position: absolute;
   top: 0px;
-  bottom: 60px;
+  bottom: 0px;
   left: 0px;
   right: 0px;
 }
@@ -41,7 +41,7 @@ p{
 }
 #flex-content{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   text-align: left;
   height: 100%;
@@ -54,7 +54,7 @@ p{
 }
 .box-bottom
 {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   left: 20px;
 }
@@ -64,6 +64,7 @@ p{
   border-radius: 4px;
   cursor: pointer;
   display: table;
+  margin-bottom: 20px;
 }
 .btn a{
   padding-top: 1em;
