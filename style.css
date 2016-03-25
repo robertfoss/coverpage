@@ -123,13 +123,13 @@ p{
   text-align: left;
 }
 .lightbox .button input{
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(255,255,255,.7);
 }
 .lightbox .featherlight-content{
   width: 500px;
   padding: 25px;
   color: #fff;
-  background: rgba(0,0,0, 0.6);
+  background: rgba(0,0,0, 0.7);
   border-radius: 5px;
 }
 .lightbox .featherlight-close{
