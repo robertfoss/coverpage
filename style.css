@@ -99,7 +99,7 @@ p{
   background: rgba(256,256,256, 0.85);
 }
 .lightbox h2{
- position:absolute;
+  position:absolute;
   top: 0.3em;
   font-weight: 300;
   font-size: 16px;
@@ -119,11 +119,14 @@ p{
   letter-spacing: .18em;
   font-weight: 700;
 }
+.lightbox .email{
+  text-align: left;
+}
 .lightbox .button input{
     background-color: rgba(255,255,255,.6);
 }
 .lightbox .featherlight-content{
-  width: 600px;
+  width: 500px;
   padding: 25px;
   color: #fff;
   background: rgba(0,0,0, 0.6);
