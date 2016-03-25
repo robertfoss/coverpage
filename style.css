@@ -53,19 +53,21 @@ p{
   padding: 40px 60px 60px 60px;
   box-sizing: border-box;
 }
-#button{
+.box-bottom
+{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+}
+.btn{
   background: #222;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
   display: table;
-
-  position: absolute;
-  bottom: 60px;
-  left: 60px;
-  right: 60px;
 }
-#button a{
+.btn a{
   padding-top: 1em;
   padding-right: 1.44em;
   padding-right: calc(1.44em - .18em);
@@ -85,15 +87,15 @@ p{
   font-weight: 700;
   font-style: normal;
 }
-#button span{
+.btn span{
   display: inline-block;
 }
 
 /* override default feather style... */
-.fixwidth {
+.lightbox {
     background: rgba(256,256,256, 0.85);
 }
-.fixwidth .featherlight-content {
+.lightbox .featherlight-content {
     width: 600px;
     padding: 25px;
     color: #fff;
@@ -101,7 +103,7 @@ p{
     border-radius: 6px;
 
 }
-.fixwidth .featherlight-close {
+.lightbox .featherlight-close {
     color: #fff;
     background: #222;
 }
