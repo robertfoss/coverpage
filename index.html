@@ -12,6 +12,9 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="static/featherlight.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="static/featherlight.min.js"></script>
 </head>
 <body>
     <div id="flex-content">
@@ -21,9 +24,16 @@
 
         <div id="button">
             <span>
-                <a>Sign up for notifications</a>
+                <a data-featherlight="#lightbox" data-featherlight-variant="fixwidth">
+                    Sign up for notifications
+                </a>
             </span>
         </div>
+    </div>
+    <div id="lightbox">
+        <h2>Featherlight with custom styles</h2>
+        <p>It's easy to override the styling of Featherlight. All you need to do is specify an additional class in the data-featherlight-variant of the triggering element. This class will be added and you can then override everything. You can also reset all CSS: <em>$('.special').featherlight({ resetCss: true });</em>
+        </p>
     </div>
 </body>
 </html>

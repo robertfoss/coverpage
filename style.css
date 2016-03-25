@@ -88,3 +88,20 @@ p{
 #button span{
   display: inline-block;
 }
+
+/* override default feather style... */
+.fixwidth {
+    background: rgba(256,256,256, 0.85);
+}
+.fixwidth .featherlight-content {
+    width: 600px;
+    padding: 25px;
+    color: #fff;
+    background: #222;
+    border-radius: 6px;
+
+}
+.fixwidth .featherlight-close {
+    color: #fff;
+    background: #222;
+}
