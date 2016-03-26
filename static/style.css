@@ -39,17 +39,25 @@ p{
   font-style: normal;
   line-height: 1.4em;
 }
-#flex-content{
+#flex-horizontal{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+}
+#flex-horizontal #spacer{
+  width: 8vw;
+  max-width: 60px;
+}
+#flex-vertical{
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
   text-align: left;
   height: 100%;
   width: 100%;
   max-width: 620px;
   position: relative;
-  padding-left: 20px;
-  padding-right: 20px;
   box-sizing: border-box;
 }
 .box-bottom
